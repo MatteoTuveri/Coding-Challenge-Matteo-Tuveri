@@ -1,0 +1,102 @@
+body/*Set background image*/
+{
+background-image: url(background.jpg);
+background-size:cover;
+padding-top: 50px;
+}
+#corner/*Corner settings*/
+{
+    background-color: rgb(0, 0, 0, .5);
+    border-radius:1%;
+    display:block;   
+    width: 1400px;
+    height: 900px;
+    margin: auto;
+    padding: 100px;
+}
+header/*align logo and title*/
+{
+    text-align: center;
+}
+#logo/*Logo Settings*/
+{
+    display: block;
+    width: 25%;
+    height: auto;
+    margin: auto;
+    margin-top: auto;
+}
+#Title/*Font and color for title*/
+{
+    font-family: 'Public Sans', sans-serif;
+    color: rgb(0, 221, 0);
+}
+nav/*Align Navigation section*/
+{
+    text-align: center;
+}
+#Navigator/*Navigation settings*/
+{
+    display: inline-block;
+    background-color: rgb(0, 221, 0);
+    width: 1200px;
+    height: 35px;
+    text-align: center;
+    padding-top: 15px;
+}
+main/*scotters list settings*/
+{
+    display: block;
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+}
+.scooter/*Font and color for scooters name*/
+{
+    display:block;
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    font-size: xx-large;
+}
+.Localization/*Font and color for scooters localization*/
+{
+    display:block;
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    font-size: x-large;
+}
+.charge-bar/*charges bar settings*/
+{
+    display:block;
+    color: white;
+    margin-top: 5px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: x-large;  
+}
+#first-bar
+{
+    display: block;
+    width: 200px;
+    margin-left: 0;
+    border: solid 20px;   
+    border-radius: 4px 4px 4px 4px;
+    color: orange;
+}
+#second-bar
+{
+    display: block;
+    width: 600px;
+    margin-left: 0;
+    border: solid 20px;   
+    border-radius: 4px 4px 4px 4px;
+    color: rgb(2, 184, 2);
+}
+#third-bar
+{
+    display: block;
+    width: 100px;
+    margin-left: 0;
+    border: solid 20px;   
+    border-radius: 4px 4px 4px 4px;
+    color: red;
+}
